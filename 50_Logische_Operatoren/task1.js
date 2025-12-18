@@ -1,6 +1,6 @@
-let Grade = Math.floor(Math.random() * 100);
+let score = Math.floor(Math.random() * 100);
 
-if (Grade >= 90){
+if (score >= 90) {
     console.log("Grade: A");
 } else if (score >= 80 && score <= 89) {
     console.log("Grade: B");
@@ -8,5 +8,6 @@ if (Grade >= 90){
     console.log("Grade: C");
 } else if (score >= 60 && score <= 69) {
     console.log("Grade: D");
-} else if {
-    console.log("Grade: F"
+} else {
+    console.log("Grade: F");
+}
