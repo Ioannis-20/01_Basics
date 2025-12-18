@@ -1,38 +1,28 @@
+console.log("Hallo");
 
+console.log("Tolle Sache");
 
-console.log("Hallo"); 
+let a = 7;
 
-console.log("Tolle Sache"); 
+let b = 8;
 
+let c = 10;
 
+console.log(a + b + c);
 
-let a = 7; 
+console.log((a + b) / c);
 
-let b = 8; 
+console.log(c - a + b);
 
-let c = 10; 
+console.log(a + b + c * 3);
 
+console.log((a + b + c) / 4);
 
+a = 3;
 
-console.log(a + b + c); 
+b = a + 3;
 
-console.log((a + b) / c);
-
-console.log(c -a + b);
-
-console.log( a + b + c * 3);
-
-console.log((a + b + c)/4);
-
- 
-
- 
-
-a = 3;
-
-b = a + 3; 
-
-c = c -3;
+c = c - 3;
 
 console.log(a);
 console.log(b);
